@@ -119,8 +119,8 @@
 				<version>2.17</version>
 				<configuration>
 					<sourceDirectory>${project.basedir}/src/main</sourceDirectory>
-					<configLocation>${project.basedir}/config/checkstyle/Checkstyle.xml</configLocation>
-					<suppressionsLocation>${project.basedir}/config/checkstyle/Suppressions.xml</suppressionsLocation>
+					<configLocation>${project.basedir}/src/config/checkstyle/Checkstyle.xml</configLocation>
+					<suppressionsLocation>${project.basedir}/src/config/checkstyle/Suppressions.xml</suppressionsLocation>
 					<consoleOutput>true</consoleOutput>
 				</configuration>
 				<executions>
