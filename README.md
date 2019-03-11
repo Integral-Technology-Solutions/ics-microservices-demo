@@ -117,3 +117,5 @@
     JDBC URL: jdbc:h2:mem:testdb
     Username: sa
     Password: <leave this empty>
+
+##### See Jenkinsfile for the pipeline details
