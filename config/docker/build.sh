@@ -1,5 +1,5 @@
 #!/bin/sh
-artifact_name=microservice-demo
+artifact_name=ics-microservice-demo
 artifact_version=0.0.1-SNAPSHOT
 docker_image=demo/${artifact_name}
 
@@ -9,10 +9,10 @@ cd config/docker
 
 rm -fr app.jar
 cp ../../target/${artifact_name}*.jar app.jar
-docker build -t $docker_image:latest .
+docker build -t $docker_image:1.0 .
 
 #Run the docker image locally on dev011
-docker run -it -p 8297:8297 $docker_image:latest
+#docker run -it -p 8080:8080 $docker_image:latest
 
 #Stop the docker container
 #docker stop <docker_instance_name>
