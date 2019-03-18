@@ -20,6 +20,6 @@ public class DummyControllerIntegrationTest {
     @Test
     public void testPing() throws Exception {
         String result = dummyController.ping();
-        Assert.assertEquals("hello", result);
+        Assert.assertEquals("pong", result);
     }
 }

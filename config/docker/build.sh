@@ -9,7 +9,7 @@ cd config/docker
 
 rm -fr app.jar
 cp ../../target/${artifact_name}*.jar app.jar
-docker build -t $docker_image:1.0 .
+docker build -t $docker_image:1.1 .
 
 #Run the docker image locally on dev011
 #docker run -it -p 8080:8080 $docker_image:latest
